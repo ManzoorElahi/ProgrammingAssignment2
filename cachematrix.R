@@ -2,7 +2,9 @@
 ## retrieve the cached data whenever present.
 
 ## The function 'makeCacheMatrix(r=2,n=rnorm(r*r))' generates a square matrix of size r*r
-## If no iput is given then random matrix of 2*2 is generated.
+## If no iput is given then random matrix of 2*2 is generated.If the entered values are less
+## than the required values to generate r by r matrix it the required number of random numbers. 
+## If the entered values are more then it skips the extra numbers.
 
 makeCacheMatrix <- function(r=2,n = rnorm(r*r)) {
   mi <- NULL
