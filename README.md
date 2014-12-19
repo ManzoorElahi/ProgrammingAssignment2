@@ -1,6 +1,6 @@
 ### makeCacheMatrix(r=2,n=rnorm(r*r))
 
-This function generates a square matrix of size r*r
+This function generates a square matrix of size r by r. If no iput is given then random matrix of 2 by 2 is generated.
 
 ### cacheSolve(x,...)
 This function takes the output of makeCacheMatrix() as input.
